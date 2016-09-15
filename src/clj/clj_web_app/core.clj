@@ -1,6 +1,6 @@
 (ns clj-web-app.core
-  (:require [compojure.core :refer :all]
-            [compojure.handler :as handler]
+  (:use compojure.core)
+  (:require [compojure.handler :as handler]
             [compojure.route :as route]))
 
 ;; defroutes macro defines a function that chains individual route
